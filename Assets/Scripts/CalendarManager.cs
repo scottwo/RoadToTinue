@@ -31,7 +31,6 @@ public class CalendarManager : MonoBehaviour {
 
 	void Start () {
 		SetDateCurrent();
-		// StartCoroutine("TestCalendar");
 	}
 	
 	void Update () {
@@ -62,11 +61,4 @@ public class CalendarManager : MonoBehaviour {
 			SetDateCurrent();
 		}
 	}
-
-	// IEnumerator TestCalendar() {
-    // 	for(;;) {
-	// 		AdvanceDays(150);
-    //     	yield return new WaitForSeconds(1.0f);
-    // 	}
- 	// }
 }
